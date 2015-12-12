@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 11/25/2014 8:43:10 PM -->
+<GameData>
+	<CustomModOptions>
+		<Row Class="5" Name="COMBAT_HANDICAP" Value="1"/>
+	</CustomModOptions>
+</GameData>

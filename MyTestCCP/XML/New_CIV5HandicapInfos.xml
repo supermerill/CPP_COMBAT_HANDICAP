@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/4/2014 12:09:28 PM -->
+<GameData>
+	<HandicapInfos>
+		<Update>
+			<Where Type="HANDICAP_EMPEROR" />
+			<Set>
+				<AIUnitSupplyPercent>40</AIUnitSupplyPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<AIUnitSupplyPercent>50</AIUnitSupplyPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_DEITY" />
+			<Set>
+				<AIUnitSupplyPercent>60</AIUnitSupplyPercent>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where Type="HANDICAP_KING" />
+			<Set>
+				<AIStartingDefenseUnits>2</AIStartingDefenseUnits>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_EMPEROR" />
+			<Set>
+				<AIStartingDefenseUnits>2</AIStartingDefenseUnits>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<AIStartingDefenseUnits>3</AIStartingDefenseUnits>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_DEITY" />
+			<Set>
+				<AIStartingDefenseUnits>3</AIStartingDefenseUnits>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where Type="HANDICAP_EMPEROR" />
+			<Set>
+				<MeleeHumanVsAIAtkDmgMultPercent>40</MeleeHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<MeleeHumanVsAIAtkDmgMultPercent>85</MeleeHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_DEITY" />
+			<Set>
+				<MeleeHumanVsAIAtkDmgMultPercent>80</MeleeHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where Type="HANDICAP_KING" />
+			<Set>
+				<RangeHumanVsAIAtkDmgMultPercent>80</RangeHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_EMPEROR" />
+			<Set>
+				<RangeHumanVsAIAtkDmgMultPercent>60</RangeHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<RangeHumanVsAIAtkDmgMultPercent>60</RangeHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_DEITY" />
+			<Set>
+				<RangeHumanVsAIAtkDmgMultPercent>60</RangeHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		
+		<Update>
+			<Where Type="HANDICAP_KING" />
+			<Set>
+				<RangeHumanVsAICityAtkDmgMultPercent>95</RangeHumanVsAICityAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_EMPEROR" />
+			<Set>
+				<RangeHumanVsAICityAtkDmgMultPercent>90</RangeHumanVsAICityAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<RangeHumanVsAICityAtkDmgMultPercent>85</RangeHumanVsAICityAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_DEITY" />
+			<Set>
+				<RangeHumanVsAICityAtkDmgMultPercent>80</RangeHumanVsAICityAtkDmgMultPercent>
+			</Set>
+		</Update>
+		
+		<Update>
+			<Where Type="HANDICAP_KING" />
+			<Set>
+				<CityHumanVsAIAtkDmgMultPercent>95</CityHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_EMPEROR" />
+			<Set>
+				<CityHumanVsAIAtkDmgMultPercent>20</CityHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<CityHumanVsAIAtkDmgMultPercent>85</CityHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_DEITY" />
+			<Set>
+				<CityHumanVsAIAtkDmgMultPercent>80</CityHumanVsAIAtkDmgMultPercent>
+			</Set>
+		</Update>
+
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<MeleeHumanVsAIBonus>200</MeleeHumanVsAIBonus>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<RangeHumanVsAIBonus>190</RangeHumanVsAIBonus>
+			</Set>
+		</Update>
+		<Update>
+			<Where Type="HANDICAP_IMMORTAL" />
+			<Set>
+				<CityHumanVsAIBonus>1800</CityHumanVsAIBonus>
+			</Set>
+		</Update>
+
+	</HandicapInfos>
+	<HandicapInfo_AIFreeTechs>
+		<Delete />
+
+		<!--TECH_ANIMAL_HUSBANDRY for all kings! -->
+		<Row>
+			<HandicapType>HANDICAP_KING</HandicapType>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+		</Row>
+
+		<!--emperor can have potery, but not other, as it disabled the great library -->
+		<Row>
+			<HandicapType>HANDICAP_EMPEROR</HandicapType>
+			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
+		</Row>
+		<!-- instead, other have trap, a "better" tech -->
+		<Row>
+			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
+			<TechType>TECH_TRAPPING</TechType>
+		</Row>
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_TRAPPING</TechType>
+		</Row>
+
+		<!--deity have mining also -->
+		<Row>
+			<HandicapType>HANDICAP_DEITY</HandicapType>
+			<TechType>TECH_MINING</TechType>
+		</Row>
+
+
+	</HandicapInfo_AIFreeTechs>
+
+</GameData>
