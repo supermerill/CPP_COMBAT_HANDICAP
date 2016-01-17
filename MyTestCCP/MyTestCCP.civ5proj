@@ -55,11 +55,11 @@
     <Folder Include="XML" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="CvGameCore_Expansion2.dll">
+    <Content Include="Lua\EnemyUnitPanel.lua">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="Lua\EnemyUnitPanel.lua">
+    <Content Include="Lua\EnemyUnitPanel.old">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
@@ -67,11 +67,11 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="SQL\Activation.xml">
+    <Content Include="SQL\New_CIV5HandicapInfos.sql">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="SQL\New_CIV5HandicapInfos.sql">
+    <Content Include="XML\Activation.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

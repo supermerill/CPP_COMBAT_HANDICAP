@@ -2,7 +2,7 @@
 <!-- Created by ModBuddy on 10/4/2014 12:09:28 PM -->
 <GameData>
 	<HandicapInfos>
-		<Update>
+		<!--<Update>
 			<Where Type="HANDICAP_EMPEROR" />
 			<Set>
 				<AIUnitSupplyPercent>40</AIUnitSupplyPercent>
@@ -44,49 +44,49 @@
 			<Set>
 				<AIStartingDefenseUnits>3</AIStartingDefenseUnits>
 			</Set>
-		</Update>
+		</Update>-->
 
 		<Update>
 			<Where Type="HANDICAP_EMPEROR" />
 			<Set>
-				<MeleeHumanVsAIAtkDmgMultPercent>40</MeleeHumanVsAIAtkDmgMultPercent>
+				<MeleeHumanVsAIAtkDmgMultPercent>95</MeleeHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_IMMORTAL" />
 			<Set>
-				<MeleeHumanVsAIAtkDmgMultPercent>85</MeleeHumanVsAIAtkDmgMultPercent>
+				<MeleeHumanVsAIAtkDmgMultPercent>90</MeleeHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_DEITY" />
 			<Set>
-				<MeleeHumanVsAIAtkDmgMultPercent>80</MeleeHumanVsAIAtkDmgMultPercent>
+				<MeleeHumanVsAIAtkDmgMultPercent>85</MeleeHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 
 		<Update>
 			<Where Type="HANDICAP_KING" />
 			<Set>
-				<RangeHumanVsAIAtkDmgMultPercent>80</RangeHumanVsAIAtkDmgMultPercent>
+				<RangeHumanVsAIAtkDmgMultPercent>90</RangeHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_EMPEROR" />
 			<Set>
-				<RangeHumanVsAIAtkDmgMultPercent>60</RangeHumanVsAIAtkDmgMultPercent>
+				<RangeHumanVsAIAtkDmgMultPercent>85</RangeHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_IMMORTAL" />
 			<Set>
-				<RangeHumanVsAIAtkDmgMultPercent>60</RangeHumanVsAIAtkDmgMultPercent>
+				<RangeHumanVsAIAtkDmgMultPercent>80</RangeHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_DEITY" />
 			<Set>
-				<RangeHumanVsAIAtkDmgMultPercent>60</RangeHumanVsAIAtkDmgMultPercent>
+				<RangeHumanVsAIAtkDmgMultPercent>80</RangeHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		
@@ -118,29 +118,29 @@
 		<Update>
 			<Where Type="HANDICAP_KING" />
 			<Set>
-				<CityHumanVsAIAtkDmgMultPercent>95</CityHumanVsAIAtkDmgMultPercent>
+				<CityHumanVsAIAtkDmgMultPercent>100</CityHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_EMPEROR" />
 			<Set>
-				<CityHumanVsAIAtkDmgMultPercent>20</CityHumanVsAIAtkDmgMultPercent>
+				<CityHumanVsAIAtkDmgMultPercent>100</CityHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_IMMORTAL" />
 			<Set>
-				<CityHumanVsAIAtkDmgMultPercent>85</CityHumanVsAIAtkDmgMultPercent>
+				<CityHumanVsAIAtkDmgMultPercent>100</CityHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 		<Update>
 			<Where Type="HANDICAP_DEITY" />
 			<Set>
-				<CityHumanVsAIAtkDmgMultPercent>80</CityHumanVsAIAtkDmgMultPercent>
+				<CityHumanVsAIAtkDmgMultPercent>100</CityHumanVsAIAtkDmgMultPercent>
 			</Set>
 		</Update>
 
-		<Update>
+		<!--<Update>
 			<Where Type="HANDICAP_IMMORTAL" />
 			<Set>
 				<MeleeHumanVsAIBonus>200</MeleeHumanVsAIBonus>
@@ -157,13 +157,13 @@
 			<Set>
 				<CityHumanVsAIBonus>1800</CityHumanVsAIBonus>
 			</Set>
-		</Update>
+		</Update>-->
 
 	</HandicapInfos>
-	<HandicapInfo_AIFreeTechs>
+	<!--<HandicapInfo_AIFreeTechs>
 		<Delete />
 
-		<!--TECH_ANIMAL_HUSBANDRY for all kings! -->
+		--><!--TECH_ANIMAL_HUSBANDRY for all kings! --><!--
 		<Row>
 			<HandicapType>HANDICAP_KING</HandicapType>
 			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
@@ -181,12 +181,12 @@
 			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
 		</Row>
 
-		<!--emperor can have potery, but not other, as it disabled the great library -->
+		--><!--emperor can have potery, but not other, as it disabled the great library --><!--
 		<Row>
 			<HandicapType>HANDICAP_EMPEROR</HandicapType>
 			<TechType>TECH_ANIMAL_HUSBANDRY</TechType>
 		</Row>
-		<!-- instead, other have trap, a "better" tech -->
+		--><!-- instead, other have trap, a "better" tech --><!--
 		<Row>
 			<HandicapType>HANDICAP_IMMORTAL</HandicapType>
 			<TechType>TECH_TRAPPING</TechType>
@@ -196,13 +196,13 @@
 			<TechType>TECH_TRAPPING</TechType>
 		</Row>
 
-		<!--deity have mining also -->
+		--><!--deity have mining also --><!--
 		<Row>
 			<HandicapType>HANDICAP_DEITY</HandicapType>
 			<TechType>TECH_MINING</TechType>
 		</Row>
 
 
-	</HandicapInfo_AIFreeTechs>
+	</HandicapInfo_AIFreeTechs>-->
 
 </GameData>
